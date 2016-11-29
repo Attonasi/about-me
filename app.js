@@ -31,12 +31,12 @@ if (response3 === 'yes' || response3 === 'y'){
   alert('yes or no jerk.');
 }
 
-var response4 = prompt('Does Collin have any cats?').toLowerCase();
+var response4 = prompt('Is Collin going to get any sleep tonight?').toLowerCase();
 
 if (response4 === 'yes' || response4 === 'y'){
-  alert ('you are incorrect I dont have no stinking cats,');
+  alert ('You are incorrect, I have a 3 year old.');
 }else if(response4 ==='no' || response4 === 'n'){
-  alert:('You are right I have no cats.');
+  alert:('I should get ear plugs.');
 }else{
   alert('yes or no jerk.');
 }
