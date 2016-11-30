@@ -6,81 +6,81 @@ console.log('The users name is ' +userName);
 
 var correctAnswer = 0;
 
-// //question 1
-//
-// alert('We are going to ask you a series of questions about Collin');
-//
-// var response1 = prompt('Does Collin have any cats?').toLowerCase();
-//
-// if (response1 === 'yes' || response1 === 'y'){
-//   alert ('you are incorrect I dont have no stinking cats,');
-// }else if(response1 ==='no' || response1 === 'n'){
-//   alert('You are right '+userName+', I have no cats.');
-//   correctAnswer++;
-// }else{
-//   alert('yes or no ' + userName + '.');
-// }
-//
-// console.log('Does Collin have any cats?  ' +response1);
-//
-// //question 2
-// var response2 = prompt('Does Collin have a job?').toLowerCase();
-//
-// if (response2 === 'yes' || response2 === 'y'){
-//   alert ('you are incorrect ' +userName+', Collin does not have a stupid job.');
-// }else if(response2 ==='no' || response2 === 'n'){
-//   alert('You are right ' +userName+', I have no job.');
-//   correctAnswer++;
-// }else{
-//   alert('yes or no ' + userName + '.');
-// }
-//
-// console.log('Does Collin have a job?  ' +response2);
-//
-// //question 3
-//
-// var response3 = prompt('Does Collin have any idea what he is doing?').toLowerCase();
-//
-// if (response3 === 'yes' || response3 === 'y'){
-//   alert ('you are incorrect '+userName+', I dont have no idea what is happening');
-// }else if(response3 ==='no' || response3 === 'n'){
-//   alert('You are right ' +userName+', I have no clue.');
-//   correctAnswer++;
-// }else{
-//   alert('yes or no ' + userName + '.');
-// }
-//
-// console.log('Does Collin have any idea what he is doing?  ' +response3);
-//
-// //question 4
-//
-// var response4 = prompt('Is Collin going to get any sleep tonight?').toLowerCase();
-//
-// if (response4 === 'yes' || response4 === 'y'){
-//   alert ('You are incorrect ' +userName+ ', I have a 3 year old.');
-// }else if(response4 ==='no' || response4 === 'n'){
-//   alert('You are correct, with a 3 year old I should get ear plugs.');
-//   correctAnswer++;
-// }else{
-//   alert('yes or no ' + userName + '.');
-// }
-//
-// console.log('Is Collin going to get any sleep tonight?  '+response4);
-//
-// //question 5
-//
-// var response5 = prompt('Does Collin like riding the train?').toLowerCase();
-//
-// if (response5 === 'yes' || response5 === 'y'){
-//   alert ('You can\'t be serious.');
-// }else if(response5 ==='no' || response5 === 'n'){
-//   alert('Correct. Commuting is the worst.');
-//   correctAnswer++;
-// }else{
-//   alert('yes or no ' + userName + '.');
-// }
-//
-// console.log('Does Collin like riding the train?  '+response5);
+//question 1
+
+alert('We are going to ask you a series of questions about Collin');
+
+var response1 = prompt('Does Collin have any cats?').toLowerCase();
+
+if (response1 === 'yes' || response1 === 'y'){
+  alert ('you are incorrect I dont have no stinking cats,');
+}else if(response1 ==='no' || response1 === 'n'){
+  alert('You are right '+userName+', I have no cats.');
+  correctAnswer++;
+}else{
+  alert('yes or no ' + userName + '.');
+}
+
+console.log('Does Collin have any cats?  ' +response1);
+
+//question 2
+var response2 = prompt('Does Collin have a job?').toLowerCase();
+
+if (response2 === 'yes' || response2 === 'y'){
+  alert ('you are incorrect ' +userName+', Collin does not have a stupid job.');
+}else if(response2 ==='no' || response2 === 'n'){
+  alert('You are right ' +userName+', I have no job.');
+  correctAnswer++;
+}else{
+  alert('yes or no ' + userName + '.');
+}
+
+console.log('Does Collin have a job?  ' +response2);
+
+//question 3
+
+var response3 = prompt('Does Collin have any idea what he is doing?').toLowerCase();
+
+if (response3 === 'yes' || response3 === 'y'){
+  alert ('you are incorrect '+userName+', I dont have no idea what is happening');
+}else if(response3 ==='no' || response3 === 'n'){
+  alert('You are right ' +userName+', I have no clue.');
+  correctAnswer++;
+}else{
+  alert('yes or no ' + userName + '.');
+}
+
+console.log('Does Collin have any idea what he is doing?  ' +response3);
+
+//question 4
+
+var response4 = prompt('Is Collin going to get any sleep tonight?').toLowerCase();
+
+if (response4 === 'yes' || response4 === 'y'){
+  alert ('You are incorrect ' +userName+ ', I have a 3 year old.');
+}else if(response4 ==='no' || response4 === 'n'){
+  alert('You are correct, with a 3 year old I should get ear plugs.');
+  correctAnswer++;
+}else{
+  alert('yes or no ' + userName + '.');
+}
+
+console.log('Is Collin going to get any sleep tonight?  '+response4);
+
+//question 5
+
+var response5 = prompt('Does Collin like riding the train?').toLowerCase();
+
+if (response5 === 'yes' || response5 === 'y'){
+  alert ('You can\'t be serious.');
+}else if(response5 ==='no' || response5 === 'n'){
+  alert('Correct. Commuting is the worst.');
+  correctAnswer++;
+}else{
+  alert('yes or no ' + userName + '.');
+}
+
+console.log('Does Collin like riding the train?  '+response5);
 
 // Question 6
 var correctGuessNumber = Math.floor(Math.random()*20+1);
@@ -114,27 +114,28 @@ for (var i=0; i<4; i++) {
 
 // Question 7
 
-// alert(userName+ ', you are going to guess a country that Collin has been to. There are many right answers. You have 6 triest to get it right.')
-// var countriesIHaveBeenTo = ['britain', 'germany', 'denmark', 'france', 'japan', 'thailand', 'kuwait', 'saudi arabia', 'iraq', 'afghanistan', 'hong kong'];
-// var counter = 0;
-//
-// while (counter <6) {
-//
-//   var locationGuess = prompt('Guess a country Collin has been to! This is guess number '+(counter+1)+'.').toLowerCase();
-//
-//   console.log(locationGuess);
-//
-//   for(var j = 0; j < countriesIHaveBeenTo.length; j++){
-//     if (locationGuess === countriesIHaveBeenTo[j]){
-//       alert('Yes, Collin has been to that country! That was guess number ' +counter+'.');
-//       correctAnswer++;
-//       j=10;
-//       counter = 10;
-//     }
-//   }
-//   counter++;
-//   console.log(counter);
-// }
+alert(userName+ ', you are going to guess a country that Collin has been to. There are many right answers. You have 6 triest to get it right.')
+var countriesIHaveBeenTo = ['britain', 'germany', 'denmark', 'france', 'japan', 'thailand', 'kuwait', 'saudi arabia', 'iraq', 'afghanistan', 'hong kong'];
+var counter = 0;
+
+while (counter <6) {
+
+  var locationGuess = prompt('Guess a country Collin has been to! This is guess number '+(counter+1)+'.').toLowerCase();
+
+  console.log(locationGuess);
+
+  for(var j = 0; j < countriesIHaveBeenTo.length; j++){
+    if (locationGuess === countriesIHaveBeenTo[j]){
+      alert('Yes, Collin has been to that country! That was guess number ' +counter+'.');
+      correctAnswer++;
+      j=10;
+      counter = 10;
+    }
+  }
+  counter++;
+  console.log(counter);
+}
+
 
 if (correctAnswer === 7){
   alert('You got all 7 correct '+userName+'. I think you may a stalker');
