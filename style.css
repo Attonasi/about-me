@@ -1,18 +1,36 @@
 * {
-    outline: 1p dotted orange;
+    outline: 1p solid black;
 }
 
 h1 {
-  border: 1px solid black;
+
+  font-size: 20 px;
+  color: black;
 
 }
 
 h2 {
-  color: red;
+  color: blue;
+  font-size: 18px;
+  font-style: oblique;
 
 }
 
 p {
   font-style : italics;
+  font-size: 15px;
+  color: black;
 
+}
+
+
+
+a:hover {
+  font-style: italic;
+  color: green;
+}
+
+a:visited {
+
+  color: purple;
 }
