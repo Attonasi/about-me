@@ -2,7 +2,7 @@
 
 //The questions in the guessing game must require a mix of yes/no answers, and user input must accept either y/n or yes/no responses, with either .toUpperCase() or .toLowerCase() used to validate the user input and accommodate users entering all-caps Y/N or YES/NO answers, too.
 var userName = prompt('What is your name?');
-console.log(userName);
+console.log('The users name is ' +userName);
 
 var response1 = prompt('Does Collin have any cats?').toLowerCase();
 
@@ -14,7 +14,7 @@ if (response1 === 'yes' || response1 === 'y'){
   alert('yes or no ' + userName + '.');
 }
 
-console.log(response1);
+console.log('Does Collin have any cats?  ' +response1);
 
 var response2 = prompt('Does Collin have a job?').toLowerCase();
 
@@ -26,7 +26,7 @@ if (response2 === 'yes' || response2 === 'y'){
   alert('yes or no ' + userName + '.');
 }
 
-console.log(response2);
+console.log('Does Collin have a job?  ' +response2);
 
 var response3 = prompt('Does Collin have any idea what he is doing?').toLowerCase();
 
@@ -38,7 +38,7 @@ if (response3 === 'yes' || response3 === 'y'){
   alert('yes or no ' + userName + '.');
 }
 
-console.log(response3);
+console.log('Does Collin have any idea what he is doing?  ' +response3);
 
 var response4 = prompt('Is Collin going to get any sleep tonight?').toLowerCase();
 
@@ -50,7 +50,7 @@ if (response4 === 'yes' || response4 === 'y'){
   alert('yes or no ' + userName + '.');
 }
 
-console.log(response4);
+console.log('Is Collin going to get any sleep tonight?  '+response4);
 
 var response5 = prompt('Does Collin like riding the train?').toLowerCase();
 
@@ -62,6 +62,6 @@ if (response5 === 'yes' || response5 === 'y'){
   alert('yes or no ' + userName + '.');
 }
 
-console.log(response5);
+console.log('Does Collin like riding the train?  '+response5);
 
 document.write(response1 +' '+ response2 +' '+ response3+' '+ response4+' '+ response5);
