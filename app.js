@@ -16,6 +16,7 @@ if (response1 === 'yes' || response1 === 'y'){
   alert ('you are incorrect I dont have no stinking cats,');
 }else if(response1 ==='no' || response1 === 'n'){
   alert('You are right '+userName+', I have no cats.');
+  correctAnswer++;
 }else{
   alert('yes or no ' + userName + '.');
 }
@@ -29,6 +30,7 @@ if (response2 === 'yes' || response2 === 'y'){
   alert ('you are incorrect ' +userName+', Collin does not have a stupid job.');
 }else if(response2 ==='no' || response2 === 'n'){
   alert('You are right ' +userName+', I have no job.');
+  correctAnswer++;
 }else{
   alert('yes or no ' + userName + '.');
 }
@@ -43,6 +45,7 @@ if (response3 === 'yes' || response3 === 'y'){
   alert ('you are incorrect '+userName+', I dont have no idea what is happening');
 }else if(response3 ==='no' || response3 === 'n'){
   alert('You are right ' +userName+', I have no clue.');
+  correctAnswer++;
 }else{
   alert('yes or no ' + userName + '.');
 }
@@ -56,7 +59,8 @@ var response4 = prompt('Is Collin going to get any sleep tonight?').toLowerCase(
 if (response4 === 'yes' || response4 === 'y'){
   alert ('You are incorrect ' +userName+ ', I have a 3 year old.');
 }else if(response4 ==='no' || response4 === 'n'){
-  alert('You are correct, I should get ear plugs.');
+  alert('You are correct, with a 3 year old I should get ear plugs.');
+  correctAnswer++;
 }else{
   alert('yes or no ' + userName + '.');
 }
@@ -70,7 +74,8 @@ var response5 = prompt('Does Collin like riding the train?').toLowerCase();
 if (response5 === 'yes' || response5 === 'y'){
   alert ('You can\'t be serious.');
 }else if(response5 ==='no' || response5 === 'n'){
-  alert('Commuting is the worst.');
+  alert('Correct. Commuting is the worst.');
+  correctAnswer++;
 }else{
   alert('yes or no ' + userName + '.');
 }
@@ -103,6 +108,7 @@ for (var i=0; i<4; i++) {
 }
 
 // Question 7
+
 alert(userName+ ', you are going to guess a country that Collin has been to. There are many right answers. You have 6 triest to get it right.')
 var countriesIHaveBeenTo = ['britain', 'germany', 'denmark', 'france', 'japan', 'thailand', 'kuwait', 'saudi arabia', 'iraq', 'afghanistan', 'hong kong'];
 var counter = 0;
@@ -114,7 +120,7 @@ while (counter <6) {
   console.log(locationGuess);
 
   for(var j = 0; j < countriesIHaveBeenTo.length; j++){
-    if (locationGuess === countriesIHaveBeenTo[i]){
+    if (locationGuess === countriesIHaveBeenTo[j]){
       alert('Yes, Collin has been to that country! That was guess number ' +counter+'.');
       correctAnswer++;
       j=10;
