@@ -126,7 +126,7 @@ while (counter <6) {
 
   for(var j = 0; j < countriesIHaveBeenTo.length; j++){
     if (locationGuess === countriesIHaveBeenTo[j]){
-      alert('Yes, Collin has been to that country! That was guess number ' +counter+'.');
+      alert('Yes, Collin has been to that country! That was guess number ' +(counter+1)+'.');
       correctAnswer++;
       j=10;
       counter = 10;
