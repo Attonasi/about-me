@@ -8,7 +8,7 @@ var correctAnswer = 0;
 
 //question 1
 
-alert('We are going to ask you a series of questions about Collin');
+alert('We are going to ask you a series of questions about Collin. Answer with yes/y or no/n please.');
 
 var response1 = prompt('Does Collin have any cats?').toLowerCase();
 
