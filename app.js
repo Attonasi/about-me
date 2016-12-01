@@ -16,7 +16,7 @@ if (response1 === 'yes' || response1 === 'y'){
   alert ('you are incorrect I dont have no stinking cats,');
 }else if(response1 ==='no' || response1 === 'n'){
   alert('You are right '+userName+', I have no cats.');
-  correctAnswer++;
+  correctAnswer+=1;
 }else{
   alert('yes or no ' + userName + '.');
 }
@@ -30,7 +30,7 @@ if (response2 === 'yes' || response2 === 'y'){
   alert ('you are incorrect ' +userName+', Collin does not have a stupid job.');
 }else if(response2 ==='no' || response2 === 'n'){
   alert('You are right ' +userName+', I have no job.');
-  correctAnswer++;
+  correctAnswer+=1;
 }else{
   alert('yes or no ' + userName + '.');
 }
@@ -45,7 +45,7 @@ if (response3 === 'yes' || response3 === 'y'){
   alert ('you are incorrect '+userName+', I dont have no idea what is happening');
 }else if(response3 ==='no' || response3 === 'n'){
   alert('You are right ' +userName+', I have no clue.');
-  correctAnswer++;
+  correctAnswer+=1;
 }else{
   alert('yes or no ' + userName + '.');
 }
@@ -60,7 +60,7 @@ if (response4 === 'yes' || response4 === 'y'){
   alert ('You are incorrect ' +userName+ ', I have a 3 year old.');
 }else if(response4 ==='no' || response4 === 'n'){
   alert('You are correct, with a 3 year old I should get ear plugs.');
-  correctAnswer++;
+  correctAnswer+=1;
 }else{
   alert('yes or no ' + userName + '.');
 }
@@ -75,7 +75,7 @@ if (response5 === 'yes' || response5 === 'y'){
   alert ('You can\'t be serious.');
 }else if(response5 ==='no' || response5 === 'n'){
   alert('Correct. Commuting is the worst.');
-  correctAnswer++;
+  correctAnswer+=1;
 }else{
   alert('yes or no ' + userName + '.');
 }
@@ -101,7 +101,7 @@ for (var i=0; i<4; i++) {
   if (response6 === correctGuessNumber) {
     alert('You guessed '+correctGuessNumber+' correctly on try number ' +(i+1)+'.');
     i=10;
-    correctAnswer++;
+    correctAnswer+=1;
   }else if (response6 > correctGuessNumber){
     alert(response6 +' is too high! That was guess number '+(i+1)+'.');
   }else {
@@ -127,12 +127,12 @@ while (counter <6) {
   for(var j = 0; j < countriesIHaveBeenTo.length; j++){
     if (locationGuess === countriesIHaveBeenTo[j]){
       alert('Yes, Collin has been to that country! That was guess number ' +(counter+1)+'.');
-      correctAnswer++;
+      correctAnswer+=1;
       j=10;
       counter = 10;
     }
   }
-  counter++;
+  counter+=1;
   console.log(counter);
 }
 
